@@ -24,8 +24,8 @@ The goal is to provide a clear and replicable guide for a beginner to:
 
 **End Goal:**
 The project results in two minimal viable products (MVPs):
-1. A **JavaScript functions demo** (`js_toolkit_functions/`) that demonstrates functions, parameters, return values, and date handling.
-2. A **DOM & Events demo** (`js_toolkit_dom/`) that renders an interactive HTML page where events, form submissions, and DOM manipulation work together.
+1. A **JavaScript functions , DOM & Events demo** (`main.js`) that demonstrates functions, parameters, return values, and date handling.
+
 
 ---
 
@@ -503,9 +503,7 @@ ISO string: 2025-07-10T...
 ## 6. AI Agents Utilised
 
 - **Claude**
-- **Phind**
-- **ChatGPT**
-- **Gemini CLI**
+- **Github Copilot**
 
 ---
 
