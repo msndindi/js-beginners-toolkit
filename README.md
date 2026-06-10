@@ -363,20 +363,22 @@ function addForm(event) {
   alert(`Your username is ${username.value}`);
 }
 document.querySelector("#signup-form").addEventListener("submit", addForm);
-```
 
+**Challenge 4: Creating A Search Engine**
 
+```javascript
 // Challenge 4: Creating A Search Engine
 
 function handleSearchSubmission(event) {
-event.preventDefault();
-let searchInputElement = document.querySelector("#search-form-input");
-let cityElement = document.querySelector("#city");
-cityElement.innerHTML = searchInputElement.value; // the value of the city is replaced by the search input vlaue
+  event.preventDefault();
+  let searchInputElement = document.querySelector("#search-form-input");
+  let cityElement = document.querySelector("#city");
+  cityElement.innerHTML = searchInputElement.value; // the value of the city is replaced by the search input value
 }
 
 let searchElement = document.querySelector("#search-form");
 searchElement.addEventListener("submit", handleSearchSubmission);
+```
 
 // always remember to target the whole form with the form id 
 // id are used once that is why they are used in JS
